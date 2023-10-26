@@ -52,8 +52,25 @@ main {
     color: #666;
 }
 
+
 footer {
     background-color: #ffa07a;
     text-align: center;
     padding: 10px;
 }
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .gallery-item {
+        margin-bottom: 10px;
+    }
+
+    .gallery-item h2 {
+        font-size: 16px;
+    }
+}
+
+
