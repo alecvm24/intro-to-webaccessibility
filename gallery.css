@@ -25,7 +25,32 @@ nav a {
     color: #fff;
 }
 
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
 
+.gallery-item {
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.gallery-item p {
+    color: #666;
+}
 
 footer {
     background-color: #ffa07a;
